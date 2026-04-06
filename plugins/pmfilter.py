@@ -101,7 +101,7 @@ async def pm_text(bot, message):
                     "ഞങ്ങളുടെ Movie Group-ൽ മാത്രമേ നിങ്ങൾക്ക് സിനിമകൾ സെർച്ച് ചെയ്യാൻ കഴിയൂ."
                     "Direct Bot-ൽ സിനിമകൾ സെർച്ച് ചെയ്യാൻ അനുവാദമില്ല. താഴെ നൽകിയിരിക്കുന്ന REQUEST HERE ബട്ടണിൽ ക്ലിക്ക് ചെയ്ത് ഞങ്ങളുടെ മൂവി ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യുക. അവിടെ നിങ്ങൾക്ക് ഇഷ്ടപ്പെട്ട സിനിമകൾ സെർച്ച് ചെയ്യാവുന്നതാണ്.👇"
                     "</blockquote></b>"
-                ), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=https://t.me/+DwrVzb3ix35mNWY1)]]))
+                ), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=GRP_LINK)]]))
             await bot.send_message(chat_id=LOG_CHANNEL,
                                    text=(
                                        f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\n"
